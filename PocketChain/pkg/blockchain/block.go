@@ -15,6 +15,7 @@ type BlockHeader struct {
 	PreviousHash       []byte
 	StateRoot          []byte
 	ValidatorSignature []byte
+  ExtraData          []byte
 }
 
 // BlockBody defines the structure of a block body.
